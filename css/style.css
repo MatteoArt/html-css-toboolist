@@ -62,3 +62,27 @@ header {
     border: 1px solid green;
     color: green;
 }
+.rosso {
+    border: 1px solid red;
+    color: red;
+}
+.pulsante {
+    display: inline-block;
+    color: white;
+    border-radius: 15px;
+    padding: 8px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.caption {
+    display: inline-block;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 7px;
+    margin-right: 5px;
+}
+.riga {
+
+}
+.editorial {
+    background-color: #45ABEA;
+}
