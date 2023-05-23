@@ -1,0 +1,64 @@
+/* annulla gli stili di default dati dal browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F6F8F9;
+}
+header {
+    padding: 15px 0 15px 15px;
+    background-color: white;
+}
+#logo {
+    width: 80px;
+    vertical-align: middle;
+}
+#titolo {
+    color: #021732;
+    font-size: 55px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+}
+#container {
+    width: 900px;
+    background-color: white;
+    margin: 30px auto;
+    border-radius: 8px;
+    border: 1px solid #F6F8F9;
+}
+#button1 {
+    display: inline-block;
+    background-color: #47ADF1;
+    color: white;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 7px;
+    border: 1px solid #47ADF1;
+}
+#button2 {
+    display: inline-block;
+    border: 1px solid gray;
+    color: gray;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 7px;
+}
+#nav {
+    padding: 15px 0 15px 50px;
+    border-bottom: 1px solid #F6F8F9;
+}
+.icona {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+.verde {
+    border: 1px solid green;
+    color: green;
+}
